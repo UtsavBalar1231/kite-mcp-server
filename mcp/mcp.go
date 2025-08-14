@@ -48,6 +48,17 @@ func GetAllTools() []Tool {
 		&PlaceGTTOrderTool{},
 		&ModifyGTTOrderTool{},
 		&DeleteGTTOrderTool{},
+
+		// AI-powered trading strategy tools
+		&AnalyzeTradeOpportunityTool{},
+		&GetWealthBuilderSignalsTool{},
+		&CalculatePovertyEscapePositionTool{},
+		&PlaceSmartGTTOrderTool{},
+		&DetectMomentumStocksTool{},
+		&AnalyzeSectorRotationTool{},
+		&MonitorPositionsTool{},
+		&SetEmergencyExitTool{},
+		&GetDailyGameplanTool{},
 	}
 }
 
